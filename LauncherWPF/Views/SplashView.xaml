@@ -1,0 +1,70 @@
+﻿<Window x:Class="LauncherWPF.Views.SplashView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LauncherWPF.Views"
+        mc:Ignorable="d"
+        Title="SplashView" Height="320" Width="570" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" Background="Transparent" WindowStartupLocation="CenterScreen"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Border Margin="20">
+        <Border.Effect>
+            <DropShadowEffect Color="Black" 
+                              Direction="0" 
+                              BlurRadius="10" 
+                              ShadowDepth="0"/>
+        </Border.Effect>
+
+        <materialDesign:TransitioningContent OpeningEffect="{materialDesign:TransitionEffect Kind=FadeIn,Duration=0:0:0.5}">
+            <Grid Background="#CCFF5722">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0"
+                      Margin="10">
+                    <Image Source="/Resources/Dantech-White.png"
+                           HorizontalAlignment="Left"/>
+                </Grid>
+
+                <StackPanel Grid.Row="1" 
+                            VerticalAlignment="Center">
+                    <TextBlock Text="VCS-Ts" 
+                               FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 7 ExtraBold"
+                               FontSize="58"
+                               Foreground="White"
+                               HorizontalAlignment="Center"/>
+                    <TextBlock Text="Vehicle Configuration Set up &amp; Test System" 
+                               FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                               FontSize="16"
+                               Foreground="White"
+                               DockPanel.Dock="Top" 
+                               HorizontalAlignment="Center" Margin="0,-5,0,0"/>
+                    <ProgressBar Style="{StaticResource MaterialDesignCircularProgressBar}"
+                                 IsIndeterminate="True"
+                                 Width="30" Height="30" Foreground="White" Margin="0,10,0,0"/>
+                </StackPanel>
+
+                <Grid Grid.Row="2"
+                      Margin="8">
+                    <TextBlock Text="ⓒ 2020 by DAN Tech Co., Ltd." 
+                               FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                               FontSize="14"
+                               Foreground="#77FFFFFF" 
+                               HorizontalAlignment="Left" 
+                               VerticalAlignment="Bottom"/>
+                </Grid>
+                
+            </Grid>
+        </materialDesign:TransitioningContent>
+    </Border>
+</Window>

@@ -1,0 +1,183 @@
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.exe.config
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.exe
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.Core.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\MaterialDesignColors.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\System.Windows.Interactivity.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.Core.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\MaterialDesignColors.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.dll.config
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\Views\AppListView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\Views\ShellView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\App.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF_MarkupCompile.cache
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF_MarkupCompile.lref
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\App.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\Views\AppListView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\Views\ShellView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.g.resources
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.Properties.Resources.resources
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.GenerateResource.cache
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.CoreCompileInputs.cache
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.CopyComplete
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.exe
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csprojAssemblyReference.cache
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.exe.config
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.exe.manifest
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.application
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.exe
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.Core.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignColors.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Microsoft.CSharp.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Microsoft.WindowsAPICodePack.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\PresentationCore.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\PresentationFramework.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.ComponentModel.Composition.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Composition.AttributedModel.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Composition.Convention.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Data.DataSetExtensions.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Data.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Drawing.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Net.Http.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Windows.Interactivity.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Xaml.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Xml.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Xml.Linq.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\WindowsBase.dll
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.Core.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignColors.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Microsoft.WindowsAPICodePack.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.dll.config
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\SettingsView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\AppIconView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\AppListView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\DownloadView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\IconView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\SettingsView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings01GeneralView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings03InfoView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings02ProgramView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\ShellView.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\App.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF_MarkupCompile.cache
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF_MarkupCompile.lref
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\App.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\AppIconView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\AppListView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\DownloadView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\IconView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings01GeneralView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings03InfoView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings02ProgramView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\ShellView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.g.resources
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.Properties.Resources.resources
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.GenerateResource.cache
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.CoreCompileInputs.cache
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.exe.manifest
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.application
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.CopyComplete
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.exe
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.pdb
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\ListView.baml
+C:\Users\ksl36\OneDrive\문서\Visual Studio 2013\Projects\00-개인개발\01-LauncherWPF\LauncherWPF\obj\Release\Views\ListView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.exe.config
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.exe.manifest
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.application
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.exe
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\LauncherWPF.pdb
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.Core.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignColors.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Microsoft.CSharp.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\PresentationCore.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\PresentationFramework.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.ComponentModel.Composition.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Composition.AttributedModel.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Composition.Convention.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Data.DataSetExtensions.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Data.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Drawing.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Net.Http.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Windows.Interactivity.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Xaml.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Xml.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Xml.Linq.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\WindowsBase.dll
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.xml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.xml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Caliburn.Micro.Platform.Core.xml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignColors.pdb
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.pdb
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\MaterialDesignThemes.Wpf.xml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Microsoft.WindowsAPICodePack.xml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.pdb
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\System.Data.SQLite.dll.config
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\ListView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\SettingsView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\AppIconView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\AppListView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\ListView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\DownloadView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\SettingsView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings01GeneralView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings03InfoView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings02ProgramView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\ShellView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\SplashView.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\App.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF_MarkupCompile.cache
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF_MarkupCompile.lref
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\App.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\AppIconView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\AppListView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\DownloadView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings01GeneralView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings03InfoView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\Settings\Settings02ProgramView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\ShellView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\Views\SplashView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.g.resources
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.Properties.Resources.resources
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.GenerateResource.cache
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.CoreCompileInputs.cache
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.exe.manifest
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.application
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.CopyComplete
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.exe
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.pdb
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Resources\product.db
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Resources\Dantech-White.png

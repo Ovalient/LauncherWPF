@@ -1,0 +1,136 @@
+﻿<UserControl x:Class="LauncherWPF.Views.Settings.Settings03InfoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LauncherWPF.Views"
+             xmlns:cal="http://www.caliburnproject.org"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal" 
+             TextOptions.TextRenderingMode="Auto"
+             FontFamily="{DynamicResource MaterialDesignFont}">
+
+    <UserControl.Resources>
+        <Style x:Key="HyperlinkButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <DockPanel Margin="30">
+            <TextBlock Text="단테크 어플리케이션" 
+                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
+                       FontSize="20" 
+                       DockPanel.Dock="Top"/>
+            <DockPanel DockPanel.Dock="Top">
+                <TextBlock Text="프로그램 버전"
+                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
+                           FontSize="15" 
+                           DockPanel.Dock="Left" 
+                           Margin="20,20,0,0" 
+                           VerticalAlignment="Top" 
+                           HorizontalAlignment="Left"/>
+                <TextBlock Text="{Binding ProgramVersion}"
+                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
+                           FontSize="15" 
+                           DockPanel.Dock="Left" 
+                           Margin="20,20,0,0" 
+                           VerticalAlignment="Top" 
+                           HorizontalAlignment="Left"/>
+            </DockPanel>
+            <TextBlock Text="라이선스" 
+                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
+                       FontSize="20" 
+                       DockPanel.Dock="Top"
+                       Margin="0,30,0,0"/>
+
+            <TextBlock Text="Caliburn.Micro" 
+                       Foreground="Gray"
+                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
+                       FontSize="18" 
+                       DockPanel.Dock="Top"
+                       Margin="20,10,0,0"/>
+            <TextBlock Text="{Binding License01}"
+                       Foreground="Gray"
+                       FontFamily="Consolas" 
+                       FontSize="12" 
+                       DockPanel.Dock="Top"
+                       Margin="20,10,0,0" 
+                       Width="400" 
+                       HorizontalAlignment="Left"
+                       TextWrapping="WrapWithOverflow"/>
+            <DockPanel DockPanel.Dock="Top" 
+                       VerticalAlignment="Top">
+                <TextBlock Text="웹사이트: "
+                           Foreground="Gray"
+                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                           Margin="20,20,0,0" 
+                           VerticalAlignment="Top"/>
+                <TextBlock x:Name="LinkTarget01" 
+                           Text="https://caliburnmicro.com/"
+                           Visibility="Collapsed"
+                           VerticalAlignment="Top"/>
+                <Button Tag="{Binding ElementName=LinkTarget01, Path=Text}"
+                        Style="{StaticResource HyperlinkButton}"
+                        cal:Message.Attach="[LinkClick($this.Tag)]"
+                        FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                        Focusable="False"
+                        Margin="0,20,0,0" >
+                    <TextBlock>
+                            <Hyperlink Focusable="False">https://caliburnmicro.com/</Hyperlink>
+                    </TextBlock>
+                </Button>
+            </DockPanel>
+
+            <TextBlock Text="Material Design In XAML Toolkit" 
+                       Foreground="Gray"
+                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
+                       FontSize="18" 
+                       DockPanel.Dock="Top"
+                       Margin="20,30,0,0"/>
+            <TextBlock Text="{Binding License02}"
+                       Foreground="Gray"
+                       FontFamily="Consolas" 
+                       FontSize="12" 
+                       DockPanel.Dock="Top"
+                       Margin="20,10,0,0" 
+                       Width="400" 
+                       HorizontalAlignment="Left"
+                       TextWrapping="WrapWithOverflow"/>
+            <DockPanel DockPanel.Dock="Top" 
+                       VerticalAlignment="Top">
+                <TextBlock Text="웹사이트: "
+                           Foreground="Gray"
+                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                           Margin="20,20,0,0" 
+                           VerticalAlignment="Top"/>
+                <TextBlock x:Name="LinkTarget02" 
+                           Text="http://materialdesigninxaml.net/"
+                           Visibility="Collapsed"
+                           VerticalAlignment="Top"/>
+                <Button Tag="{Binding ElementName=LinkTarget02, Path=Text}"
+                        Style="{StaticResource HyperlinkButton}"
+                        cal:Message.Attach="[LinkClick($this.Tag)]"
+                        FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                        Focusable="False"
+                        Margin="0,20,0,0" >
+                    <TextBlock>
+                            <Hyperlink Focusable="False">http://materialdesigninxaml.net/</Hyperlink>
+                    </TextBlock>
+                </Button>
+            </DockPanel>
+        </DockPanel>
+    </ScrollViewer>
+</UserControl>
