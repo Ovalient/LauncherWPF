@@ -42,8 +42,7 @@
 
                     <!-- AppIcon -->
                     <Rectangle Grid.Row="0" Grid.Column="0"
-                               Height="90" Width="90"
-                               HorizontalAlignment="Center">
+                               Height="90" Width="90">
                         <Rectangle.Fill>
                             <ImageBrush ImageSource="{Binding Icon}" 
                                         Stretch="Fill"/>

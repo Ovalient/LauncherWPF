@@ -41,6 +41,18 @@
             </DockPanel>
         </DataTemplate>
 
+        <materialDesign:BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+
+        <Style x:Key="HyperlinkButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </UserControl.Resources>
 
     <Grid Grid.Row="1">
@@ -62,6 +74,38 @@
 
         <!-- UserControl -->
         <Grid Margin="5" Grid.Column="1">
+            <materialDesign:Card Visibility="{Binding Path=IsLoaded, Converter={StaticResource BoolToVisibility}}">
+                <DockPanel Margin="30" 
+                           VerticalAlignment="Center">
+                    <TextBlock Text="환영합니다!" 
+                               FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 7 ExtraBold"
+                               FontSize="40"
+                               DockPanel.Dock="Top"/>
+                    <TextBlock FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                               FontSize="20" 
+                               TextWrapping="WrapWithOverflow"
+                               Margin="0,20,20,0" 
+                               DockPanel.Dock="Top">
+                        VCS-Ts는 차량 구성 설정 및 시스템을 테스트하는 <LineBreak/>
+                        종합 솔루션입니다.
+                    </TextBlock>
+                    <TextBlock x:Name="LinkTarget02" 
+                           Text="http://https://www.dan-tech.com/"
+                           Visibility="Collapsed"
+                           VerticalAlignment="Top"/>
+                    <Button Tag="{Binding ElementName=LinkTarget02, Path=Text}"
+                            Style="{StaticResource HyperlinkButton}"
+                            cal:Message.Attach="[LinkClick($this.Tag)]"
+                            FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                            FontSize="20" 
+                            Focusable="False"
+                            Margin="0,60,0,0" >
+                        <TextBlock>
+                                <Hyperlink Focusable="False">‣ 더 알아보기</Hyperlink>
+                        </TextBlock>
+                    </Button>
+                </DockPanel>
+            </materialDesign:Card>            
             <ContentControl x:Name="ActiveItem"/>
         </Grid>
     </Grid>

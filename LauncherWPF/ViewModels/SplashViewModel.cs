@@ -8,8 +8,23 @@ namespace LauncherWPF.ViewModels
 {
     public class SplashViewModel : Screen
     {
-        private IEventAggregator _events;
+        #region Construction
+        public SplashViewModel(IEventAggregator events)
+        {
+            _events = events;
 
+            var worker = new BackgroundWorker();
+            worker.DoWork += Worker_DoWork;
+            worker.RunWorkerCompleted += Worker_RunWorkerCompleted;
+            worker.RunWorkerAsync();
+        }
+        #endregion
+
+        #region Members
+        private IEventAggregator _events;
+        #endregion
+
+        #region Properties
         private string _splashMessage;
         public string SplashMessage
         {
@@ -20,17 +35,9 @@ namespace LauncherWPF.ViewModels
                 NotifyOfPropertyChange(() => SplashMessage);
             }
         }
+        #endregion
 
-        public SplashViewModel(IEventAggregator events)
-        {
-            _events = events;
-
-            var worker = new BackgroundWorker();
-            worker.DoWork += Worker_DoWork;
-            worker.RunWorkerCompleted += Worker_RunWorkerCompleted;
-            worker.RunWorkerAsync();
-        }
-
+        #region Methods
         private void Worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             TryClose();
@@ -40,5 +47,6 @@ namespace LauncherWPF.ViewModels
         {
             Thread.Sleep(3000);
         }
+        #endregion
     }
 }

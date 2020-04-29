@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LauncherWPF.exe" size="7086592">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LauncherWPF.exe" size="7089152">
       <assemblyIdentity name="LauncherWPF" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>91Ii5uBX73BNR8rrgypZX8/0jGBnildedme0TvdddkE=</dsig:DigestValue>
+        <dsig:DigestValue>OekK2FcCNZ53Tt1QkrERnlzGxh7BresF40IHi5Nb6S8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

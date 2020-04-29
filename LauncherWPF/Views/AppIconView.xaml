@@ -29,7 +29,9 @@
 
         <!-- ListBoxTemplate -->
         <DataTemplate x:Key="ListBoxTemplate">
-            <DockPanel>
+            <DockPanel Height="80" Width="80" 
+                       VerticalAlignment="Center" 
+                       HorizontalAlignment="Center">
                 <Rectangle Height="64" Width="64" 
                            DockPanel.Dock="Top">
                     <Rectangle.Fill>
@@ -48,7 +50,7 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="9*"/>
+            <RowDefinition Height="10*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 

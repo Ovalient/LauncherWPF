@@ -8,7 +8,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="620" Width="920" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" Background="Transparent" WindowStartupLocation="CenterScreen"
         
-        cal:Message.Attach="[Event Loaded] = [Action ShellView_Loaded]"
+        cal:Message.Attach="[Event Loaded] = [Action ShellView_Loaded]; 
+                            [Event Closing] = [Action ShellView_Closing]"
         
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"

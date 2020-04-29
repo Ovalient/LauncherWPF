@@ -19,6 +19,11 @@ namespace LauncherWPF.ViewModels
                 ActivateItem(new AppIconViewModel(new EventAggregator()));
         }
 
+        public void ShellView_Closing()
+        {
+            CloseButton();
+        }
+
         /// <summary>
         /// 설정 버튼
         /// </summary>

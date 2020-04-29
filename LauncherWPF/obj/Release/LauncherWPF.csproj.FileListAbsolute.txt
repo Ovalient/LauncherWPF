@@ -180,4 +180,4 @@ D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csproj.Copy
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.exe
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.pdb
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Resources\product.db
-D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Resources\Dantech-White.png
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csprojAssemblyReference.cache

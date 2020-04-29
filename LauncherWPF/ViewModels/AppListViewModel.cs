@@ -25,11 +25,12 @@ namespace LauncherWPF.ViewModels
 
         #region Members
         private readonly IEventAggregator _events;
-        public ListViewModel ContentViewModel { get; set; }
-        public BindableCollection<AppModel> AppModels { get; set; } = new BindableCollection<AppModel>();
         #endregion
 
         #region Properties
+        public ListViewModel ContentViewModel { get; set; }
+        public BindableCollection<AppModel> AppModels { get; set; } = new BindableCollection<AppModel>();
+
         private AppModel _selectedApp;
         public AppModel SelectedApp
         {
@@ -38,6 +39,17 @@ namespace LauncherWPF.ViewModels
             {
                 _selectedApp = value;
                 NotifyOfPropertyChange(() => SelectedApp);
+            }
+        }
+
+        private bool _isLoaded = true;
+        public bool IsLoaded
+        {
+            get { return _isLoaded; }
+            set
+            {
+                _isLoaded = value;
+                NotifyOfPropertyChange(() => IsLoaded);
             }
         }
         #endregion
@@ -92,28 +104,36 @@ namespace LauncherWPF.ViewModels
 
         public void ListBox_SelectionChanged()
         {
+            IsLoaded = false;
             ActivateItem(new ListViewModel(_events));
             _events.PublishOnUIThread(new AppModelSender() { Apps = SelectedApp, TargetView = "ListView" });
 
-            //BitmapImage icon = _selectedApp.Icon;
-            //string appName = _selectedApp.Name;
-            //int sort = _selectedApp.Sort;
+            // DB 우선순위 변경
+            // sort 값을 +1
+            BitmapImage icon = _selectedApp.Icon;
+            string appName = _selectedApp.Name;
+            int sort = _selectedApp.Sort;
 
-            //sort++;
+            sort++;
 
-            //string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "product.db");
-            //string strConn = string.Format("Data Source={0}", path);
-            //using (SQLiteConnection conn = new SQLiteConnection(strConn))
-            //{
-            //    conn.Open();
-            //    SQLiteCommand cmd = new SQLiteCommand();
-            //    cmd.Connection = conn;
-            //    cmd.CommandText = "UPDATE product SET sort = @param1 WHERE name = @param2";
-            //    cmd.Parameters.AddWithValue("@param1", sort);
-            //    cmd.Parameters.AddWithValue("@param2", appName);
-            //    cmd.ExecuteNonQuery();
-            //    conn.Close();
-            //}
+            string path = string.Format(AppDomain.CurrentDomain.BaseDirectory + "\\Resources\\product.db");
+            string strConn = string.Format("Data Source={0}", path);
+            using (SQLiteConnection conn = new SQLiteConnection(strConn))
+            {
+                conn.Open();
+                SQLiteCommand cmd = new SQLiteCommand();
+                cmd.Connection = conn;
+                cmd.CommandText = "UPDATE product SET sort = @param1 WHERE name = @param2";
+                cmd.Parameters.AddWithValue("@param1", sort);
+                cmd.Parameters.AddWithValue("@param2", appName);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+            }
+        }
+
+        public void LinkClick(string url)
+        {
+            Process.Start(new ProcessStartInfo(url));
         }
         #endregion
     }
