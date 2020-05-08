@@ -18,7 +18,8 @@
              TextElement.FontSize="13"
              TextOptions.TextFormattingMode="Ideal" 
              TextOptions.TextRenderingMode="Auto"
-             FontFamily="{DynamicResource MaterialDesignFont}">
+             FontFamily="Arial"
+             FontStretch="Condensed">
 
     <UserControl.Resources>
         
@@ -33,11 +34,10 @@
                 </Rectangle>
                 <Rectangle Height="35" Width="15"/>
                 <TextBlock Text="{Binding Name}" 
+                           FontSize="20" FontWeight="Bold"
                            HorizontalAlignment="Stretch" 
-                           VerticalAlignment="Center" 
-                           FontSize="16"
-                           Foreground="#FF171717" 
-                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium"/>
+                           VerticalAlignment="Center"
+                           Foreground="#FF3E3E3E"/>
             </DockPanel>
         </DataTemplate>
 
@@ -64,7 +64,6 @@
         <!-- ListBox -->
         <ListBox x:Name="AppListBox"
                  Margin="5" Grid.Column="0"
-                 FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
                  Foreground="#FF3E3E3E"
                  ItemsSource="{Binding AppModels}"
                  SelectedItem="{Binding SelectedApp}"
@@ -77,31 +76,28 @@
             <materialDesign:Card Visibility="{Binding Path=IsLoaded, Converter={StaticResource BoolToVisibility}}">
                 <DockPanel Margin="30" 
                            VerticalAlignment="Center">
-                    <TextBlock Text="환영합니다!" 
-                               FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 7 ExtraBold"
-                               FontSize="40"
+                    <TextBlock Text="WELCOME!"
+                               FontSize="48" FontWeight="Bold"
                                DockPanel.Dock="Top"/>
-                    <TextBlock FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
-                               FontSize="20" 
+                    <TextBlock FontSize="26" 
                                TextWrapping="WrapWithOverflow"
                                Margin="0,20,20,0" 
                                DockPanel.Dock="Top">
-                        VCS-Ts는 차량 구성 설정 및 시스템을 테스트하는 <LineBreak/>
-                        종합 솔루션입니다.
+                        VCS-Ts is a comprehensive solution <LineBreak/>
+                        for testing car configuration settings and systems.
                     </TextBlock>
                     <TextBlock x:Name="LinkTarget02" 
-                           Text="http://https://www.dan-tech.com/"
+                           Text="http://www.dan-tech.com/"
                            Visibility="Collapsed"
                            VerticalAlignment="Top"/>
                     <Button Tag="{Binding ElementName=LinkTarget02, Path=Text}"
                             Style="{StaticResource HyperlinkButton}"
                             cal:Message.Attach="[LinkClick($this.Tag)]"
-                            FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
-                            FontSize="20" 
+                            FontSize="26" 
                             Focusable="False"
                             Margin="0,60,0,0" >
                         <TextBlock>
-                                <Hyperlink Focusable="False">‣ 더 알아보기</Hyperlink>
+                                <Hyperlink Focusable="False">‣ Learn More</Hyperlink>
                         </TextBlock>
                     </Button>
                 </DockPanel>

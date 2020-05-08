@@ -6,7 +6,13 @@
         xmlns:cal="http://www.caliburnproject.org"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="620" Width="920" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" Background="Transparent" WindowStartupLocation="CenterScreen"
+        Title="MainWindow" 
+        Height="610" Width="910" 
+        Background="{x:Null}"
+        AllowsTransparency="True"
+        ResizeMode="NoResize" 
+        WindowStyle="None" 
+        WindowStartupLocation="CenterScreen"
         
         cal:Message.Attach="[Event Loaded] = [Action ShellView_Loaded]; 
                             [Event Closing] = [Action ShellView_Closing]"
@@ -17,27 +23,82 @@
         TextElement.FontSize="13"
         TextOptions.TextFormattingMode="Ideal" 
         TextOptions.TextRenderingMode="Auto"        
-        FontFamily="{DynamicResource MaterialDesignFont}">
+        FontFamily="Arial">
 
-    <Border Margin="20">
+    <Window.Resources>
+        <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                                     
+                            xmlns:materialDesign="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf">
+            <Style x:Key="ButtonStyle" 
+                   TargetType="{x:Type Button}"
+                   BasedOn="{StaticResource MaterialDesignFlatButton}">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ButtonBase}">
+                            <Grid>
+                                <Border Background="{TemplateBinding Background}" x:Name="border" 
+                                        CornerRadius="{Binding Path=(materialDesign:ButtonAssist.CornerRadius), RelativeSource={RelativeSource TemplatedParent}}"
+                                        BorderBrush="{TemplateBinding BorderBrush}" 
+                                        BorderThickness="{TemplateBinding BorderThickness}">
+                                    <Border.Resources>
+                                        <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="{DynamicResource PrimaryHueMidBrushColor}" Opacity="0.16"/>
+                                    </Border.Resources>
+                                    <materialDesign:Ripple Content="{TemplateBinding Content}" 
+                                                           ContentTemplate="{TemplateBinding ContentTemplate}" 
+                                                           Focusable="False"
+                                                           ContentStringFormat="{TemplateBinding ContentStringFormat}"
+                                                           HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                           VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
+                                                           Padding="{TemplateBinding Padding}"
+                                                           SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+                                        <materialDesign:Ripple.Clip>
+                                            <MultiBinding Converter="{StaticResource BorderClipConverter}">
+                                                <Binding ElementName="border" Path="ActualWidth" />
+                                                <Binding ElementName="border" Path="ActualHeight" />
+                                                <Binding ElementName="border" Path="CornerRadius" />
+                                                <Binding ElementName="border" Path="BorderThickness" />
+                                            </MultiBinding>
+                                        </materialDesign:Ripple.Clip>
+                                    </materialDesign:Ripple>
+                                </Border>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="Button.IsDefaulted" Value="true">
+                                    <!--Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/-->
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="true">
+                                    <Setter Property="Background" TargetName="border" Value="#193E3E3E" />
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="false">
+                                    <Setter Property="Opacity" Value="0.23"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Border Margin="10">
         <Border.Effect>
             <DropShadowEffect Color="Black" 
                               Direction="0" 
                               BlurRadius="10" 
                               ShadowDepth="0"/>
         </Border.Effect>
-        
-        <materialDesign:Card>            
+
+        <materialDesign:Card>
             <Grid Margin="50">
-                
+
                 <Grid.RowDefinitions>
                     <RowDefinition Height="23*"/>
                     <RowDefinition Height="77*"/>
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="451*"/>
-                    <ColumnDefinition Width="349*"/>
+                    <ColumnDefinition Width="83*"/>
+                    <ColumnDefinition Width="75*"/>
                 </Grid.ColumnDefinitions>
 
                 <!-- Logo -->
@@ -47,42 +108,34 @@
                                      Height="75" Width="396">
                     <DockPanel>
                         <TextBlock Text="VCS-Ts"
-                                   FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 7 ExtraBold"
-                                   FontSize="35" 
+                                   FontSize="40" 
                                    DockPanel.Dock="Top" 
                                    Margin="10,5,0,0"/>
                         <TextBlock Text="Vehicle Configuration Set up &amp; Test System"
-                                   FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
-                                   FontSize="18" 
+                                   FontSize="22" FontStretch="Condensed"
                                    DockPanel.Dock="Bottom" 
-                                   Margin="10,-5,0,0"/>
+                                   Margin="10,0,0,0"/>
                     </DockPanel>
                     <!--<Image Source="/Resources/logo.png"/>-->
                 </materialDesign:Card>
 
                 <!-- Toolbox -->
-                <DockPanel Grid.Column="1" 
+                <DockPanel Grid.Column="1"
                            VerticalAlignment="Bottom"
-                           HorizontalAlignment="Center" 
-                           Margin="0">
+                           HorizontalAlignment="Right">
                     <!-- Search Textbox -->
-                    <TextBox VerticalAlignment="Bottom"
-                             HorizontalAlignment="Center" 
+                    <TextBox VerticalAlignment="Bottom" 
                              HorizontalContentAlignment="Left" 
-                             VerticalContentAlignment="Center" 
-                             FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
-                             FontSize="20" 
+                             VerticalContentAlignment="Center"
+                             FontSize="20" FontStretch="Condensed"
                              BorderThickness="0,0,0,2" 
                              Margin="0,0,5,0"
                              Width="200" Height="40"/>
                     <!-- Search Button -->
-                    <Button Style="{DynamicResource MaterialDesignFlatButton}" 
-                            BorderBrush="{x:Null}" 
+                    <Button Style="{DynamicResource ButtonStyle}"
                             VerticalAlignment="Bottom" 
-                            HorizontalAlignment="Center" 
-                            Foreground="#DDFFFFFF" 
                             Padding="0" 
-                            Margin="0,0,10,0" 
+                            Margin="0,0,5,0" 
                             Width="40" Height="40">
                         <materialDesign:PackIcon Kind="Search" 
                                                  VerticalAlignment="Center" 
@@ -93,29 +146,23 @@
                     </Button>
                     <!-- Setting Button -->
                     <Button x:Name="SettingButton" 
-                            Style="{DynamicResource MaterialDesignFlatButton}" 
+                            Style="{DynamicResource ButtonStyle}"
                             BorderBrush="{x:Null}" 
                             VerticalAlignment="Bottom" 
-                            HorizontalAlignment="Center"
-                            Foreground="#DDFFFFFF" 
-                            Padding="0"
-                            Margin="0" 
-                            Width="40" Height="40">
-                        <materialDesign:PackIcon Kind="Cog"
+                            Padding="0" 
+                            Width="40" Height="40" Margin="0,0,5,0">
+                        <materialDesign:PackIcon Kind="Cog" 
                                                  VerticalAlignment="Center" 
                                                  HorizontalAlignment="Center" 
-                                                 Foreground="#FF3E3E3E"
-                                                 Width="34" Height="34"/>
+                                                 Foreground="#FF3E3E3E" 
+                                                 Width="38" Height="38"/>
                     </Button>
                     <!-- Close App Button-->
                     <Button x:Name="CloseButton" 
-                            Style="{DynamicResource MaterialDesignFlatButton}" 
+                            Style="{DynamicResource ButtonStyle}" 
                             BorderBrush="{x:Null}" 
-                            VerticalAlignment="Bottom" 
-                            HorizontalAlignment="Center"
-                            Foreground="#DDFFFFFF" 
+                            VerticalAlignment="Bottom"
                             Padding="0" 
-                            Margin="10,0,0,0" 
                             Width="40" Height="40">
                         <materialDesign:PackIcon Kind="Close" 
                                                  VerticalAlignment="Center" 
@@ -129,7 +176,7 @@
                 <Grid Grid.Row="1" Grid.ColumnSpan="2">
                     <ContentControl x:Name="ActiveItem"/>
                 </Grid>
-                
+
             </Grid>
         </materialDesign:Card>
     </Border>

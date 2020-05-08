@@ -18,7 +18,8 @@
              TextElement.FontSize="13"
              TextOptions.TextFormattingMode="Ideal" 
              TextOptions.TextRenderingMode="Auto"
-             FontFamily="{DynamicResource MaterialDesignFont}">
+             FontFamily="Arial"
+             FontStretch="Condensed">
 
     <UserControl.Resources>
         <sys:Boolean x:Key="True">True</sys:Boolean>
@@ -29,79 +30,85 @@
 
     <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto">
         <DockPanel Margin="30">
-            <TextBlock Text="일반" 
-                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
-                       FontSize="20" 
+            <TextBlock Text="‣ General"
+                       FontSize="22"
+                       FontWeight="Bold"
                        DockPanel.Dock="Top"/>
-            <CheckBox Content="컴퓨터를 시작할 때 프로그램 실행" 
-                      FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                      FontSize="15" 
+            <CheckBox Content="Launch 'VCS-Ts Navigator' when you start your computer" 
+                      FontSize="18" 
                       DockPanel.Dock="Top" 
                       Margin="20,10,0,0" 
                       VerticalAlignment="Top" 
                       Padding="4,0,0,0"/>
-            <TextBlock Text="보기 방식"
-                       Foreground="Gray"
-                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
+            <CheckBox Content="Program priority Sort" 
+                      FontSize="18" 
+                      DockPanel.Dock="Top" 
+                      Margin="20,10,0,0" 
+                      VerticalAlignment="Top" 
+                      Padding="4,0,0,0"
+                      IsChecked="{Binding PriorityChecked}"/>
+            <TextBlock Text="If you check this box, programs are sorted in the order in which they are frequently used"
+                       Foreground="Gray" 
                        FontSize="15" 
+                       TextWrapping="Wrap"
+                       DockPanel.Dock="Top" 
+                       Margin="40,0,0,0" 
+                       VerticalAlignment="Top"/>
+            <TextBlock Text="Views"
+                       Foreground="Gray"
+                       FontSize="20" 
                        DockPanel.Dock="Top" 
                        Margin="20,20,0,0" 
                        VerticalAlignment="Top"/>
             <DockPanel DockPanel.Dock="Top" 
                        VerticalAlignment="Top">
-                <RadioButton Content="아이콘"
-                             FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                             FontSize="15"
+                <RadioButton Content="Icons"
+                             FontSize="18"
                              Margin="20,10,0,0" 
                              HorizontalAlignment="Left" 
                              Padding="4,0,0,0"
                              IsChecked="{Binding ListChecked, Converter={StaticResource rbConverter}, ConverterParameter={StaticResource False}}"/>
-                <RadioButton Content="리스트"
+                <RadioButton Content="List"
                              GroupName="BoolGroup"
-                             FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                             FontSize="15"
+                             FontSize="18"
                              Margin="50,10,0,0" 
                              HorizontalAlignment="Left" 
                              Padding="4,0,0,0"
                              IsChecked="{Binding ListChecked, Converter={StaticResource rbConverter}, ConverterParameter={StaticResource True}}"/>
             </DockPanel>
-            <TextBlock Text="창 위의 X를 클릭하면"
+            <TextBlock Text="WHEN I CLICK 'X' AT THE TOP OF THE WINDOW"
                        Foreground="Gray"
-                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
                        FontSize="15" 
                        DockPanel.Dock="Top" 
                        Margin="20,20,0,0" 
                        VerticalAlignment="Top"/>
-            <ComboBox FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                      FontSize="15" 
+            <ComboBox FontSize="15" 
                       DockPanel.Dock="Top" 
                       SelectedIndex="0"
                       VerticalAlignment="Top"
                       Margin="20,10,0,0" 
                       Width="300" 
                       HorizontalAlignment="Left">
-                <ComboBoxItem>프로그램 종료</ComboBoxItem>
-                <ComboBoxItem>프로그램 시스템 트레이로 초기화</ComboBoxItem>
+                <ComboBoxItem>Exit VCS-Ts Navigator</ComboBoxItem>
+                <ComboBoxItem>Minimize VCS-Ts Navigator to system tray</ComboBoxItem>
             </ComboBox>
-            <TextBlock Text="프로그램을 실행했을 때"
+            <TextBlock Text="WHEN I LAUNCH A PROGRAM"
                        Foreground="Gray"
-                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
                        FontSize="15" 
                        DockPanel.Dock="Top" 
                        Margin="20,20,0,0" 
                        VerticalAlignment="Top"/>
-            <ComboBox FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                      FontSize="15" 
+            <ComboBox FontSize="15" 
                       DockPanel.Dock="Top" 
                       SelectedIndex="0"
                       VerticalAlignment="Top"
                       Margin="20,10,0,0" 
                       Width="300" 
                       HorizontalAlignment="Left">
-                <ComboBoxItem>창 열어두기</ComboBoxItem>
-                <ComboBoxItem>창 최소화</ComboBoxItem>
-                <ComboBoxItem>창 시스템 트레이에 최소화</ComboBoxItem>
-                <ComboBoxItem>완전히 종료</ComboBoxItem>
+                <ComboBoxItem>Keep the VCS-Ts Navigator window open</ComboBoxItem>
+                <ComboBoxItem>Minimize the VCS-Ts Navigator window</ComboBoxItem>
+                <ComboBoxItem>Minimize the VCS-Ts Navigator window to the system tray</ComboBoxItem>
+                <ComboBoxItem>Exit VCS-Ts Navigator completely</ComboBoxItem>
             </ComboBox>
         </DockPanel>
     </ScrollViewer>

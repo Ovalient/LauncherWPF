@@ -12,8 +12,8 @@
         TextElement.FontWeight="Regular"
         TextElement.FontSize="13"
         TextOptions.TextFormattingMode="Ideal" 
-        TextOptions.TextRenderingMode="Auto"        
-        FontFamily="{DynamicResource MaterialDesignFont}">
+        TextOptions.TextRenderingMode="Auto"   
+        FontFamily="Arial">
     <Border Margin="20">
         <Border.Effect>
             <DropShadowEffect Color="Black" 
@@ -39,13 +39,11 @@
                 <StackPanel Grid.Row="1" 
                             VerticalAlignment="Center">
                     <TextBlock Text="VCS-Ts" 
-                               FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 7 ExtraBold"
                                FontSize="58"
                                Foreground="White"
                                HorizontalAlignment="Center"/>
-                    <TextBlock Text="Vehicle Configuration Set up &amp; Test System" 
-                               FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
-                               FontSize="16"
+                    <TextBlock Text="Vehicle Configuration Set up &amp; Test System"
+                               FontSize="22" FontStretch="Condensed"
                                Foreground="White"
                                DockPanel.Dock="Top" 
                                HorizontalAlignment="Center" Margin="0,-5,0,0"/>
@@ -57,8 +55,7 @@
                 <Grid Grid.Row="2"
                       Margin="8">
                     <TextBlock Text="ⓒ 2020 by DAN Tech Co., Ltd." 
-                               FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
-                               FontSize="14"
+                               FontSize="16" FontStretch="Condensed"
                                Foreground="#77FFFFFF" 
                                HorizontalAlignment="Left" 
                                VerticalAlignment="Bottom"/>

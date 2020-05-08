@@ -12,7 +12,8 @@
         TextElement.FontSize="13"
         TextOptions.TextFormattingMode="Ideal" 
         TextOptions.TextRenderingMode="Auto"
-        FontFamily="{DynamicResource MaterialDesignFont}">
+        FontFamily="Arial"
+        FontStretch="Condensed">
 
     <Border Margin="20" >
         <Border.Effect>
@@ -61,17 +62,15 @@
 
                         <TextBlock Grid.Row="0" 
                                    Text="{Binding Name}" 
-                                   FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
+                                   FontSize="22" FontWeight="Bold"
                                    HorizontalAlignment="Left" 
                                    VerticalAlignment="Center" 
-                                   Margin="20,0,0,0" 
-                                   FontSize="20"/>
+                                   Margin="20,0,0,0"/>
                         <TextBlock Grid.Row="0" 
-                                   Text=" 설치" 
-                                   FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
+                                   Text=" Installation" 
+                                   FontSize="22" FontWeight="Bold"
                                    HorizontalAlignment="Left" 
-                                   VerticalAlignment="Center"
-                                   FontSize="20"/>
+                                   VerticalAlignment="Center"/>
                         <!-- Close Button -->
                         <Button x:Name="Cancel" 
                                 Style="{DynamicResource MaterialDesignFlatButton}" 
@@ -93,36 +92,34 @@
                     <materialDesign:Card Grid.Row="1" Grid.Column="1"
                                          Margin="20,10">
                         <DockPanel Margin="10">
-                            <TextBlock Text="설치 위치" 
-                                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
-                                       FontSize="18" 
+                            <TextBlock Text="Install Location" 
+                                       FontSize="18" FontWeight="Bold"
                                        DockPanel.Dock="Top"/>
 
                             <DockPanel DockPanel.Dock="Top" 
                                        VerticalAlignment="Top">
                                 <!-- InstallPath -->
                                 <TextBlock Text="{Binding InstallPath}"
-                                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                                           FontSize="14" VerticalAlignment="Center"/>
+                                           FontSize="15" 
+                                           VerticalAlignment="Center"/>
                                 <!-- Change InstallPath Button-->
                                 <Button x:Name="ChangeButton" 
                                         Style="{DynamicResource MaterialDesignFlatButton}"
-                                        Content="변경"
+                                        Content="Change"
                                         DockPanel.Dock="Right" 
-                                        FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
-                                        FontSize="14" 
                                         HorizontalAlignment="Right"/>
                             </DockPanel>
                             <Border BorderThickness="1" 
                                     Margin="10" 
                                     BorderBrush="#FF3E3E3E">
-                                <TextBlock Text="'설치' 버튼을 누르면 FTP 서버에서 다운로드를 시작합니다." 
-                                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                                           FontSize="14" 
+                                <TextBlock TextWrapping="Wrap"
+                                           FontSize="16"                                          
                                            DockPanel.Dock="Top" 
                                            HorizontalAlignment="Center" 
                                            VerticalAlignment="Center" 
-                                           Margin="0"/>
+                                           Margin="0">
+                                    Pressing the 'Install' button<LineBreak/>starts the download from the FTP server
+                                </TextBlock>
                             </Border>
 
                         </DockPanel>
@@ -131,12 +128,12 @@
                     <!-- Install Button-->
                     <Button Grid.Row="2" Grid.Column="1"
                             x:Name="Ok"
-                            Content="설치" 
-                            FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium"
-                            FontSize="20"
+                            Content="Install"
+                            Foreground="White" 
+                            FontSize="18" FontWeight="Bold"
                             HorizontalAlignment="Right"  
                             Height="40" Width="100" 
-                            Margin="0,0,20,0"/>
+                            Margin="0,0,20,0" />
 
                 </Grid>
             </materialDesign:Card>

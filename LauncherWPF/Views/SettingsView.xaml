@@ -10,7 +10,7 @@
         TextElement.FontSize="13"
         TextOptions.TextFormattingMode="Ideal" 
         TextOptions.TextRenderingMode="Auto"
-        FontFamily="{DynamicResource MaterialDesignFont}">
+        FontFamily="Arial">
 
     <Border Margin="20" >
         <Border.Effect>
@@ -32,9 +32,9 @@
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Margin="20,0,0,10"
-                           Text="설정"
+                           Text="‣ Settings"
+                           FontWeight="Bold"
                            VerticalAlignment="Bottom" 
-                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
                            FontSize="24"/>
 
                 <Border Grid.ColumnSpan="2" 
@@ -70,8 +70,8 @@
                                      Grid.RowSpan="2">
                     <Grid>
                         <ListBox Margin="10" 
-                                 FontSize="16"
-                                 FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
+                                 FontSize="20"
+                                 FontStretch="Condensed"
                                  cal:Message.Attach="[Event SelectionChanged] = [Action ListBox_SelectionChanged($source, $eventArgs)]">
                             <ListViewItem>
                                 <DockPanel>
@@ -79,7 +79,7 @@
                                                              HorizontalAlignment="Stretch" 
                                                              VerticalAlignment="Stretch" 
                                                              Margin="0,0,15,0"/>
-                                    <TextBlock Text="일반"/>
+                                    <TextBlock Text="General"/>
                                 </DockPanel>
                             </ListViewItem>
                             <ListViewItem>
@@ -88,7 +88,7 @@
                                                              HorizontalAlignment="Stretch" 
                                                              VerticalAlignment="Stretch" 
                                                              Margin="0,0,15,0"/>
-                                    <TextBlock Text="프로그램 설치/업데이트"/>
+                                    <TextBlock Text="Program Install/Update"/>
                                 </DockPanel>
                             </ListViewItem>
                             <ListViewItem>
@@ -97,13 +97,12 @@
                                                              HorizontalAlignment="Stretch" 
                                                              VerticalAlignment="Stretch" 
                                                              Margin="0,0,15,0"/>
-                                    <TextBlock Text="정보"/>
+                                    <TextBlock Text="About"/>
                                 </DockPanel>
                             </ListViewItem>
                         </ListBox>
                         <!-- Version TextBlock -->
                         <TextBlock Text="{Binding ProgramVersion}" 
-                                   FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
                                    VerticalAlignment="Bottom" 
                                    Padding="10,10,0,10"/>
                     </Grid>
@@ -118,10 +117,10 @@
                 <materialDesign:Card Grid.Column="1" Grid.Row="2" Panel.ZIndex="-1000">
                     <DockPanel>
                         <Button x:Name="OkButton" 
-                                Content="저장 및 닫기"
-                                FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
+                                Content="Done"
+                                FontWeight="Bold"
                                 HorizontalAlignment="Right" 
-                                Margin="0,0,20,0" Padding="16,0"/>
+                                Margin="0,0,20,0" Padding="16,0" Foreground="White"/>
                     </DockPanel>
                 </materialDesign:Card>
             </Grid>

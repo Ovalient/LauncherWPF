@@ -17,6 +17,19 @@ namespace LauncherWPF.ViewModels.Settings
                 NotifyOfPropertyChange(() => ListChecked);
             }
         }
+
+        private bool _priorityChecked;
+        public bool PriorityChecked
+        {
+            get { return _priorityChecked; }
+            set
+            {
+                if (value.Equals(_priorityChecked)) return;
+                _priorityChecked = value;
+                Properties.Settings.Default.PriorityToggle = value;
+                NotifyOfPropertyChange(() => PriorityChecked);
+            }
+        }
         #endregion
 
         #region Members
@@ -24,6 +37,7 @@ namespace LauncherWPF.ViewModels.Settings
         {
             Properties.Settings.Default.Reload();
             ListChecked = Properties.Settings.Default.ListToggle;
+            PriorityChecked = Properties.Settings.Default.PriorityToggle;
         }
         #endregion
     }

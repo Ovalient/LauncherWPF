@@ -14,7 +14,8 @@
              TextElement.FontSize="13"
              TextOptions.TextFormattingMode="Ideal" 
              TextOptions.TextRenderingMode="Auto"
-             FontFamily="{DynamicResource MaterialDesignFont}">
+             FontFamily="Arial"
+             FontStretch="Condensed">
 
     <UserControl.Resources>
         <Style x:Key="HyperlinkButton" TargetType="Button">
@@ -30,36 +31,31 @@
 
     <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto">
         <DockPanel Margin="30">
-            <TextBlock Text="단테크 어플리케이션" 
-                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
-                       FontSize="20" 
+            <TextBlock Text="‣ DAN Tech Co.,Ltd Application" 
+                       FontSize="22" FontWeight="Bold"
                        DockPanel.Dock="Top"/>
             <DockPanel DockPanel.Dock="Top">
-                <TextBlock Text="프로그램 버전"
-                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                           FontSize="15" 
+                <TextBlock Text="Program Version"
+                           FontSize="18"
                            DockPanel.Dock="Left" 
                            Margin="20,20,0,0" 
                            VerticalAlignment="Top" 
                            HorizontalAlignment="Left"/>
                 <TextBlock Text="{Binding ProgramVersion}"
-                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                           FontSize="15" 
+                           FontSize="18"
                            DockPanel.Dock="Left" 
                            Margin="20,20,0,0" 
                            VerticalAlignment="Top" 
                            HorizontalAlignment="Left"/>
             </DockPanel>
-            <TextBlock Text="라이선스" 
-                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 5 Medium" 
-                       FontSize="20" 
+            <TextBlock Text="‣ Licenses" 
+                       FontSize="22" FontWeight="Bold"
                        DockPanel.Dock="Top"
                        Margin="0,30,0,0"/>
 
             <TextBlock Text="Caliburn.Micro" 
                        Foreground="Gray"
-                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                       FontSize="18" 
+                       FontSize="20"
                        DockPanel.Dock="Top"
                        Margin="20,10,0,0"/>
             <TextBlock Text="{Binding License01}"
@@ -73,9 +69,9 @@
                        TextWrapping="WrapWithOverflow"/>
             <DockPanel DockPanel.Dock="Top" 
                        VerticalAlignment="Top">
-                <TextBlock Text="웹사이트: "
+                <TextBlock Text="Website: "
+                           FontSize="14"
                            Foreground="Gray"
-                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
                            Margin="20,20,0,0" 
                            VerticalAlignment="Top"/>
                 <TextBlock x:Name="LinkTarget01" 
@@ -84,8 +80,8 @@
                            VerticalAlignment="Top"/>
                 <Button Tag="{Binding ElementName=LinkTarget01, Path=Text}"
                         Style="{StaticResource HyperlinkButton}"
+                        FontSize="14"
                         cal:Message.Attach="[LinkClick($this.Tag)]"
-                        FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
                         Focusable="False"
                         Margin="0,20,0,0" >
                     <TextBlock>
@@ -96,8 +92,7 @@
 
             <TextBlock Text="Material Design In XAML Toolkit" 
                        Foreground="Gray"
-                       FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light" 
-                       FontSize="18" 
+                       FontSize="20"
                        DockPanel.Dock="Top"
                        Margin="20,30,0,0"/>
             <TextBlock Text="{Binding License02}"
@@ -111,9 +106,9 @@
                        TextWrapping="WrapWithOverflow"/>
             <DockPanel DockPanel.Dock="Top" 
                        VerticalAlignment="Top">
-                <TextBlock Text="웹사이트: "
+                <TextBlock Text="Website: "
+                           FontSize="14"
                            Foreground="Gray"
-                           FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
                            Margin="20,20,0,0" 
                            VerticalAlignment="Top"/>
                 <TextBlock x:Name="LinkTarget02" 
@@ -122,8 +117,8 @@
                            VerticalAlignment="Top"/>
                 <Button Tag="{Binding ElementName=LinkTarget02, Path=Text}"
                         Style="{StaticResource HyperlinkButton}"
+                        FontSize="14"
                         cal:Message.Attach="[LinkClick($this.Tag)]"
-                        FontFamily="/LauncherWPF;component/Fonts/#S-Core Dream 3 Light"
                         Focusable="False"
                         Margin="0,20,0,0" >
                     <TextBlock>

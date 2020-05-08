@@ -2,6 +2,7 @@
 using LauncherWPF.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
@@ -26,6 +27,7 @@ namespace LauncherWPF.ViewModels
             {
                 Icon = _sender.Apps.Icon;
                 Name = _sender.Apps.Name;
+                Sort = _sender.Apps.Sort;
             }
         }
 
@@ -46,7 +48,7 @@ namespace LauncherWPF.ViewModels
             }
         }
 
-        public string _name;
+        private string _name;
         public string Name
         {
             get { return _name; }
@@ -57,7 +59,18 @@ namespace LauncherWPF.ViewModels
             }
         }
 
-        public string _button;
+        private int _sort;
+        public int Sort
+        {
+            get { return _sort; }
+            set
+            {
+                _sort = value;
+                NotifyOfPropertyChange(() => Sort);
+            }
+        }
+
+        private string _button;
         public string Button
         {
             get { return _button; }
@@ -68,7 +81,7 @@ namespace LauncherWPF.ViewModels
             }
         }
 
-        public string _installPath;
+        private string _installPath;
         public string InstallPath
         {
             get { return _installPath; }
@@ -79,7 +92,7 @@ namespace LauncherWPF.ViewModels
             }
         }
 
-        public bool _isClickable = true;
+        private bool _isClickable = true;
         public bool IsClickable
         {
             get { return _isClickable; }
@@ -90,7 +103,7 @@ namespace LauncherWPF.ViewModels
             }
         }
 
-        public bool _isInstalled;
+        private bool _isInstalled;
         public bool IsInstalled
         {
             get { return _isInstalled; }
@@ -101,7 +114,7 @@ namespace LauncherWPF.ViewModels
             }
         }
 
-        public string _infoText;
+        private string _infoText;
         public string InfoText
         {
             get { return _infoText; }
@@ -112,7 +125,7 @@ namespace LauncherWPF.ViewModels
             }
         }
 
-        public int _currentProgress = 0;
+        private int _currentProgress = 0;
         public int CurrentProgress
         {
             get { return _currentProgress; }
@@ -123,7 +136,7 @@ namespace LauncherWPF.ViewModels
             }
         }
 
-        public int _maximumProgress;
+        private int _maximumProgress;
         public int MaximumProgress
         {
             get { return _maximumProgress; }
@@ -142,12 +155,12 @@ namespace LauncherWPF.ViewModels
 
             if (GetFullPath(fileName) != null)
             {
-                Button = "실행";
+                Button = "Execute";
                 IsInstalled = false;
             }
             else
             {
-                Button = "설치";
+                Button = "Install";
             }
         }
 
@@ -182,10 +195,31 @@ namespace LauncherWPF.ViewModels
         {
             string fileName = Name + ".exe";
 
-            if (Button == "실행")
+            if (Button == "Execute")
             {
                 // GetFullPath에서 리턴 받은 경로의 fileName 프로세스 실행
                 Process.Start(GetFullPath(fileName));
+
+                // DB 우선순위 변경
+                // sort 값을 +1
+                BitmapImage icon = Icon;
+                string appName = Name;
+                int sort = Sort;
+
+                sort++;
+
+                string path = string.Format(AppDomain.CurrentDomain.BaseDirectory + "\\Resources\\product.db");
+                string strConn = string.Format("Data Source={0}", path);
+                using (SQLiteConnection conn = new SQLiteConnection(strConn))
+                {
+                    conn.Open();
+                    SQLiteCommand cmd = new SQLiteCommand();
+                    cmd.Connection = conn;
+                    cmd.CommandText = "UPDATE product SET sort = @param1 WHERE name = @param2";
+                    cmd.Parameters.AddWithValue("@param1", sort);
+                    cmd.Parameters.AddWithValue("@param2", appName);
+                    cmd.ExecuteNonQuery();
+                }
             }
             else
             {
@@ -304,9 +338,9 @@ namespace LauncherWPF.ViewModels
                             // ProgressBar Value 설정
                             // TextBlock 설정
                             CurrentProgress = position;
-                            InfoText = "다운로드 중 [" + targetStream.Position + "/" + fullSize + "]";
+                            InfoText = "Downloading... [" + targetStream.Position + "/" + fullSize + "]";
                         }
-                        InfoText = "다운로드 완료";
+                        InfoText = "Download Completed";
                         IsInstalled = true;
                     }
                 }

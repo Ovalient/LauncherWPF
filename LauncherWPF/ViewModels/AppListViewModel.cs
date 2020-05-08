@@ -67,7 +67,14 @@ namespace LauncherWPF.ViewModels
                 conn.Open();
                 SQLiteCommand cmd = new SQLiteCommand();
                 cmd.Connection = conn;
-                cmd.CommandText = "SELECT * FROM product ORDER BY sort DESC";
+                if(Properties.Settings.Default.PriorityToggle)
+                {
+                    cmd.CommandText = "SELECT * FROM product ORDER BY sort DESC";
+                }
+                else
+                {
+                    cmd.CommandText = "SELECT * FROM product";
+                }                
 
                 SQLiteDataReader rdr = cmd.ExecuteReader();
 
@@ -107,28 +114,6 @@ namespace LauncherWPF.ViewModels
             IsLoaded = false;
             ActivateItem(new ListViewModel(_events));
             _events.PublishOnUIThread(new AppModelSender() { Apps = SelectedApp, TargetView = "ListView" });
-
-            // DB 우선순위 변경
-            // sort 값을 +1
-            BitmapImage icon = _selectedApp.Icon;
-            string appName = _selectedApp.Name;
-            int sort = _selectedApp.Sort;
-
-            sort++;
-
-            string path = string.Format(AppDomain.CurrentDomain.BaseDirectory + "\\Resources\\product.db");
-            string strConn = string.Format("Data Source={0}", path);
-            using (SQLiteConnection conn = new SQLiteConnection(strConn))
-            {
-                conn.Open();
-                SQLiteCommand cmd = new SQLiteCommand();
-                cmd.Connection = conn;
-                cmd.CommandText = "UPDATE product SET sort = @param1 WHERE name = @param2";
-                cmd.Parameters.AddWithValue("@param1", sort);
-                cmd.Parameters.AddWithValue("@param2", appName);
-                cmd.ExecuteNonQuery();
-                conn.Close();
-            }
         }
 
         public void LinkClick(string url)
