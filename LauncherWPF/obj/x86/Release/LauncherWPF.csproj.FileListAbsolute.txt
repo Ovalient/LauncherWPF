@@ -222,3 +222,4 @@ C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Launcher
 C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.csproj.CopyComplete
 C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.exe
 C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.pdb
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\x86\Release\Themes\Generic.baml

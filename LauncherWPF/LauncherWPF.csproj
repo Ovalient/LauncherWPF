@@ -142,7 +142,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.SQLite">
-      <HintPath>bin\Release\System.Data.SQLite.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\System.Data.SQLite\2010\bin\System.Data.SQLite.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing">
       <Private>True</Private>

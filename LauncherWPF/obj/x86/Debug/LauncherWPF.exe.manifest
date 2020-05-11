@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="LauncherWPF.exe" version="0.0.0.0" publicKeyToken="0000000000000000" language="ko-KR" processorArchitecture="x86" type="win32" />
-  <description asmv2:iconFile="VCSTsIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="LauncherWPF" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
@@ -79,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LauncherWPF.exe" size="7527424">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LauncherWPF.exe" size="7314432">
       <assemblyIdentity name="LauncherWPF" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0lcPoWN2qU8u/hVHC4ndjmLLtNO37hbYGRa0e3suWTY=</dsig:DigestValue>
+        <dsig:DigestValue>njQ/kiYERZ2tv3m7sn6U864mz7Q03BYgg6vNhpkbf1w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -186,22 +185,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="LauncherWPF.exe.config" size="2876">
+  <file name="LauncherWPF.exe.config" size="4119">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>IlsjEeTeP0JfY1Lxhh9t4S/Dm2MpUr7v8a22uK/kU4I=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="VCSTsIcon.ico" size="104407">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Qotm7eyZjRw9ZlhNrzsQI333ut1klEbA7l8e7WWLGYg=</dsig:DigestValue>
+      <dsig:DigestValue>Sz/0UuxJ9XbXdBAnN6RicmzqAy7HyO7eIgUoW6yoFSI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
