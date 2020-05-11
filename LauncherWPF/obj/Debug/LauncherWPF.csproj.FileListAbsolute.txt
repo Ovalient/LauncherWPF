@@ -175,3 +175,4 @@ D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Debug\System.Data.SQLite.pdb
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Debug\System.Data.SQLite.dll.config
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Debug\Views\SplashView.g.cs
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Debug\Views\SplashView.baml
+D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Debug\Resources\product.db
