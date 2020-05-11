@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LauncherWPF.exe" size="7090176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LauncherWPF.exe" size="7303680">
       <assemblyIdentity name="LauncherWPF" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ybNBrKZv511BMgBV21UXwi6Wr9vjsN3wRF+ru0yY5oM=</dsig:DigestValue>
+        <dsig:DigestValue>hv/EsnIqFgqJmLRGZQquANX+E2azoAQDyB/iSVtGvtE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -185,13 +185,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="LauncherWPF.exe.config" size="5353">
+  <file name="LauncherWPF.exe.config" size="4119">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>U/LGDVTQUKtKwIgBUILiq94WUxiRSL4GT2BYPmIhrAw=</dsig:DigestValue>
+      <dsig:DigestValue>Sz/0UuxJ9XbXdBAnN6RicmzqAy7HyO7eIgUoW6yoFSI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

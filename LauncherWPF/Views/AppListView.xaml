@@ -61,16 +61,38 @@
             <ColumnDefinition Width="5*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- ListBox -->
-        <ListBox x:Name="AppListBox"
-                 Margin="5" Grid.Column="0"
-                 Foreground="#FF3E3E3E"
-                 ItemsSource="{Binding AppModels}"
-                 SelectedItem="{Binding SelectedApp}"
-                 ItemTemplate="{StaticResource ListBoxTemplate}" 
-                 ScrollViewer.VerticalScrollBarVisibility="Hidden"
-                 cal:Message.Attach="[Event SelectionChanged] = [Action ListBox_SelectionChanged]"/>
+        <DockPanel Grid.Column="0">
+            <Grid Margin="5,10,5,5" 
+                  DockPanel.Dock="Top">
+                <Rectangle>
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                            <GradientStop Color="#CCFF5722" Offset="0"/>
+                            <GradientStop Color="#00FF5722" Offset="0.783"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <TextBlock Text="Programs" 
+                           Margin="5,2,0,2" 
+                           FontSize="16" FontWeight="Bold"
+                           Foreground="#DDFFFFFF"/>
+            </Grid>
 
+            <!-- ListBox -->
+            <ListBox x:Name="AppListBox"
+                     Grid.Column="0"
+                     Margin="5,0,5,5"
+                     Foreground="#FF3E3E3E"
+                     Background="#33DCDCDC" 
+                     ItemsSource="{Binding AppModels}"
+                     SelectedItem="{Binding SelectedApp}"
+                     ItemTemplate="{StaticResource ListBoxTemplate}" 
+                     ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                     cal:Message.Attach="[Event SelectionChanged] = [Action ListBox_SelectionChanged]">
+            </ListBox>
+
+        </DockPanel>
+        
         <!-- UserControl -->
         <Grid Margin="5" Grid.Column="1">
             <materialDesign:Card Visibility="{Binding Path=IsLoaded, Converter={StaticResource BoolToVisibility}}">

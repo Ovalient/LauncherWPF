@@ -61,7 +61,6 @@
         </Grid>
         <ListBox Grid.Row="0"
                  x:Name="AppListView"
-                 Width="424"
                  IsEnabled="{Binding Path=IsInstalled, Converter={StaticResource InverseBooleanConverter}}"
                  ItemsSource="{Binding AppModels}"
                  SelectedItem="{Binding SelectedApp}"
@@ -73,7 +72,7 @@
                  cal:Message.Attach="[Event MouseLeftButtonUp] = [Action AppListBox_MouseLeftButtonUp]">
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <WrapPanel/>
+                    <WrapPanel HorizontalAlignment="Center"/>
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
         </ListBox>

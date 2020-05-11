@@ -7,6 +7,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Title="MainWindow" 
+        Icon="/Resources/VCSTsIcon.ico"
         Height="610" Width="910" 
         Background="{x:Null}"
         AllowsTransparency="True"
@@ -102,22 +103,24 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Logo -->
-                <materialDesign:Card VerticalAlignment="Bottom" 
-                                     HorizontalAlignment="Left" 
-                                     Background="{x:Null}" 
-                                     Height="75" Width="396">
-                    <DockPanel>
-                        <TextBlock Text="VCS-Ts"
-                                   FontSize="40" 
-                                   DockPanel.Dock="Top" 
-                                   Margin="10,5,0,0"/>
-                        <TextBlock Text="Vehicle Configuration Set up &amp; Test System"
-                                   FontSize="22" FontStretch="Condensed"
-                                   DockPanel.Dock="Bottom" 
-                                   Margin="10,0,0,0"/>
-                    </DockPanel>
-                    <!--<Image Source="/Resources/logo.png"/>-->
-                </materialDesign:Card>
+                <DockPanel VerticalAlignment="Bottom">
+                    <Grid>
+                        <Ellipse Fill="Black" 
+                                 HorizontalAlignment="Center" 
+                                 VerticalAlignment="Center" 
+                                 Width="36" Height="36"/>
+                        <Image Source="/Resources/VCSTsIcon.png"
+                               Height="40"/>
+                    </Grid>
+                    <TextBlock Text="VCS-Ts"
+                               FontSize="40" FontStretch="Expanded"
+                               DockPanel.Dock="Top" 
+                               Margin="10,0,0,0"/>
+                    <TextBlock Text="Vehicle Configuration Set up &amp; Test System"
+                               FontSize="20" FontStretch="Condensed"
+                               DockPanel.Dock="Bottom" 
+                               Margin="10,0,0,0"/>
+                </DockPanel>
 
                 <!-- Toolbox -->
                 <DockPanel Grid.Column="1"

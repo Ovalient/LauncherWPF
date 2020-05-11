@@ -12,7 +12,7 @@ namespace LauncherWPF.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.4.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,7 +25,7 @@ namespace LauncherWPF.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\VCS-Ts\\")]
         public string DirectoryPath {
             get {
                 return ((string)(this["DirectoryPath"]));
@@ -132,23 +132,6 @@ THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMP
             }
             set {
                 this["PriorityToggle"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"1. Core 홈페이지를 통해 배포되는 에스코어 글꼴의 지적 재산권은 S-Core에 있습니다.
-2. 에스코어 글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 재배포 하실 수 있습니다.
-3. 에스코어 글꼴은 어떠한 이유로도 지적 재산권 이외의 사용자가 폰트 파일을 수정, 판매할 수 없으며 배포되는 파일 형태 그대로 사용해야 합니다.
-4. 에스코어 글꼴은 본 저작권 안내를 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다. 에스코어 글꼴 저작권 안내를 포함하기 어려울 경우, 에스코어 글꼴의 출처 표기를 권장합니다.
-예) 이 페이지에는 S-Core에서 제공한 에스코어 드림이 적용되어 있습니다.
-5. 에스코어 글꼴을 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 S-Core의 프로모션을 위해 활용될 수 있습니다. 이를 원치 않을 경우, 언제든지 당사에 요청하실 수 있습니다.")]
-        public string SCoreDreamLicense {
-            get {
-                return ((string)(this["SCoreDreamLicense"]));
-            }
-            set {
-                this["SCoreDreamLicense"] = value;
             }
         }
     }

@@ -73,3 +73,152 @@ D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\x86\Release\LauncherWPF.applica
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\x86\Release\LauncherWPF.csproj.CopyComplete
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\x86\Release\LauncherWPF.exe
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\x86\Release\LauncherWPF.pdb
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Resources\product.db
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.exe.config
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.exe.manifest
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.application
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.exe
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.pdb
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.Platform.Core.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.Platform.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignColors.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.CSharp.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\PresentationCore.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\PresentationFramework.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.ComponentModel.Composition.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Composition.AttributedModel.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Composition.Convention.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.DataSetExtensions.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Drawing.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Net.Http.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Windows.Interactivity.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Xaml.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Xml.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Xml.Linq.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\WindowsBase.dll
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.xml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.Platform.xml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.Platform.Core.xml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignColors.pdb
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.xml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.SQLite.pdb
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.SQLite.dll.config
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.csprojAssemblyReference.cache
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\ListView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\SettingsView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\AppIconView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\AppListView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\ListView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\DownloadView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\SettingsView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings01GeneralView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings03InfoView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings02ProgramView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\ShellView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\SplashView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\App.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF_MarkupCompile.cache
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF_MarkupCompile.lref
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\App.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\AppIconView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\AppListView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\DownloadView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings01GeneralView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings03InfoView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings02ProgramView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\ShellView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\SplashView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.g.resources
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.Properties.Resources.resources
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.csproj.GenerateResource.cache
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.exe.manifest
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.application
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.csproj.CopyComplete
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.exe
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.pdb
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Resources\product.db
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.exe.config
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.exe.manifest
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.application
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.exe
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\LauncherWPF.pdb
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.Platform.Core.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.Platform.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignColors.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.CSharp.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\PresentationCore.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\PresentationFramework.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.ComponentModel.Composition.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Composition.AttributedModel.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Composition.Convention.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.DataSetExtensions.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.SQLite.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Drawing.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Net.Http.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Windows.Interactivity.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Xaml.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Xml.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Xml.Linq.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\WindowsBase.dll
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.xml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.Platform.xml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Caliburn.Micro.Platform.Core.xml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignColors.pdb
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.xml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.SQLite.pdb
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\bin\x86\Release\System.Data.SQLite.dll.config
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.csprojAssemblyReference.cache
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\ListView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\SettingsView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\AppIconView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\AppListView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\ListView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\DownloadView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\SettingsView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings01GeneralView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings03InfoView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings02ProgramView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\ShellView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\SplashView.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\App.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF_MarkupCompile.cache
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF_MarkupCompile.lref
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\App.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Themes\Generic.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\AppIconView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\AppListView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\DownloadView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings01GeneralView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings03InfoView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\Settings\Settings02ProgramView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\ShellView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\Views\SplashView.baml
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.g.resources
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.Properties.Resources.resources
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.csproj.GenerateResource.cache
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.csproj.CoreCompileInputs.cache
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.exe.manifest
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.application
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.csproj.CopyComplete
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.exe
+C:\Users\ksl36\Downloads\LauncherWPF-master\LauncherWPF\obj\x86\Release\LauncherWPF.pdb

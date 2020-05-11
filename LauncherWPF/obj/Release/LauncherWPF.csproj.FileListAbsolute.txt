@@ -181,3 +181,23 @@ D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.exe
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.pdb
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\bin\Release\Resources\product.db
 D:\SVN\trunk\Test\02-LauncherWPF\LauncherWPF\obj\Release\LauncherWPF.csprojAssemblyReference.cache
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\bin\Release\LauncherWPF.exe.config
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\LauncherWPF.exe
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\LauncherWPF.pdb
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\LauncherWPF.csprojResolveAssemblyReference.cache
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\ListView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\SettingsView.baml
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\AppIconView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\AppListView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\ListView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\DownloadView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\SettingsView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\Settings\Settings01GeneralView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\Settings\Settings03InfoView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\Settings\Settings02ProgramView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\ShellView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\Views\SplashView.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\App.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\LauncherWPF_MarkupCompile.cache
+C:\Users\Parrot Kim\Downloads\LauncherWPF-master\LauncherWPF-master\LauncherWPF\obj\Release\LauncherWPF_MarkupCompile.lref
